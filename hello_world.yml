@@ -1,0 +1,7 @@
+---
+- hosts: "{{ hname }}"
+  gather_facts: no
+  tasks:
+    - name: display hello word
+      debug:
+        msg: hello word
